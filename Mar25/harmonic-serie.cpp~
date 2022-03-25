@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cmath>
+
+double asc(int n);
+double des(int n);
+
+int main(char argc, int **argv){
+    
+    std::cout.precision(15); std::cout.setf(std::ios::scientific);
+    std::cout << asc(10) << '\n';
+    
+    return 0;
+}
+
+double asc(int n){
+    double mysum = 0.0;
+    for (int ii = 1; ii <= n, ++i){
+        mySum += 1.0/n;
+    }
+    return mySum;
+}
+double des(int n){
+    double mysum = 0.0;
+    for (int ii = n; ii >= 1, i--){
+        mySum += 1.0/n;
+    }
+    return mySum;
+}
