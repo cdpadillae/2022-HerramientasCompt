@@ -1,0 +1,3 @@
+plot "profile.dat" using 1:2 title 'Metodo 2' with lines,\
+     "profile.dat" using 1:3 title 'Metodo 1' with lines,\
+     "profile.dat" using 1:4 title 'Metodo 3' with lines
